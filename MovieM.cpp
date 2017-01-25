@@ -1,50 +1,3 @@
-
-Conversation opened. 1 unread message.
-
-Skip to content
-Using Gmail with screen readers
-Search
-
-
-
-Gmail
-COMPOSE
-Labels
-Inbox (2,063)
-Starred
-Important
-Sent Mail
-Drafts (7)
-Circles
-[Imap]/Sent
-Notes
-More
-  More
-1 of 2,582
-
-Print all In new window
-movie reservation
-Inbox
-x
-
-sai akhil pendyala
-Attachments11:14 PM (9 minutes ago)
-
-to me
-Attachments area
-
-Click here to Reply or Forward
-7.43 GB (49%) of 15 GB used
-Manage
-Terms - Privacy
-Last account activity: 0 minutes ago
-Details
-saiakhilphotography5@gmail.com
-Friends
-
-Show details
-
-
 #include<iostream>
 using namespace std;
 class movie
@@ -128,13 +81,14 @@ int main()
         {
               m.Delete();
         }
-        else{
+        else if(i==0)
+        {
           break;
+        }
+        else{
+          cout<<"Enter a valid number.\n";  
         }
     }
     return 0;
 
 }
-arun.cpp
-Open with
-Displaying arun.cpp.
