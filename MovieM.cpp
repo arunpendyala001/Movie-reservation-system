@@ -56,17 +56,21 @@ int main()
    m.count += 3;
     while(true)
 
-    {   for(int i=0;i<38;i++){
+    {   cout<<"+";
+        for(int i=0;i<36;i++){
             cout<<"-";
           }
+        cout<<"+";
         cout<<endl;
         cout<<"| To see the list of movies press 1. |\n";
         cout<<"| To add a movie press 2.            |\n";
         cout<<"| To delete a movie press 3.         |\n";
         cout<<"| To exit press 0.                   |\n";
-        for(int i=0;i<38;i++){
+        cout<<"+";
+        for(int i=0;i<36;i++){
                 cout<<"-";
               }
+        cout<<"+";
         cout<<endl;
         cin>>i;
         if(i==1)
@@ -86,7 +90,7 @@ int main()
           break;
         }
         else{
-          cout<<"Enter a valid number.\n";  
+          cout<<"Enter a valid number.\n";
         }
     }
     return 0;
